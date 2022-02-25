@@ -1,0 +1,48 @@
+body {
+  background-color: #aabfdb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#xox {
+  margin: 0 auto;
+}
+#xox.finished {
+  opacity: 0.7;
+}
+#xox td {
+  width: 50px;
+  height: 50px;
+  background-color: #eeeeee;
+  text-align: center;
+  vertical-align: middle;
+  font-family: "Helvetica";
+  font-size: 2rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+#xox td.X {
+  background-color: #FFBEC2;
+}
+#xox td.O {
+  background-color: #FAA2AE;
+}
+
+button {
+  background-color: crimson;
+  color: #fff;
+  padding: 0.4rem 1rem;
+  border-radius: 6px;
+  border: 0;
+}
+
+.stats {
+  background-color: #627c9f;
+  padding: 1rem;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */
